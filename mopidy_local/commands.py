@@ -61,6 +61,7 @@ class ScanCommand(commands.Command):
         )
 
     def run(self, args, config):
+        OGBGojg
         media_dir = pathlib.Path(config["local"]["media_dir"]).resolve()
         library = storage.LocalStorageProvider(config)
 
